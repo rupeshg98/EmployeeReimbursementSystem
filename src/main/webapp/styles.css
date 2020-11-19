@@ -1,0 +1,157 @@
+@charset "ISO-8859-1";
+
+h1 {
+	text-align: center;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+body {
+	background-color: lightblue;
+}
+
+label {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	position: relative; left: 10px;
+	white-space: pre-wrap;
+}
+
+input{
+	position: relative; left: 10px;
+}
+.tabs {
+	overflow: hidden;
+	border: 1px solid #ccc;
+	background-color: #f1f1f1;
+}
+
+.tabs button {
+	background-color: inherit;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 16px;
+	transition: 0.3s;
+}
+
+.tabs button:hover {
+	background-color: #ddd;
+}
+
+.tabs button.active {
+	background-color: #ddd;
+}
+
+#MyInfo {
+	height: auto;
+}
+
+#MyInfoTable {
+	border-collapse: collapse;
+	border: 1px solid #FF0000;
+}
+.update:hover{
+	background-color: white;
+}
+.update {
+	border: 2px solid black;
+	border-radius: 12px;
+	background-color: transparent;
+	color: black;
+	font-family: "Times New Roman", Times, serif; 
+	font-weight: bold;
+	padding: 12px 28px;
+	position:relative; left:40px;
+	text-align: center;
+	font-size:16px;
+}
+#approveRequest:hover{
+	background-color: white;
+}
+#approveRequest{
+	border: 2px solid black;
+	border-radius: 12px;
+	background-color: transparent;
+	color: black;
+	font-family: "Times New Roman", Times, serif; 
+	font-weight: bold;
+	padding: 12px 28px;
+	position:relative; left:40px; top: 20px;
+	text-align: center;
+	font-size:16px;
+}
+#denyRequest:hover{
+	background-color: white;
+}
+#denyRequest{
+	border: 2px solid black;
+	border-radius: 12px;
+	background-color: transparent;
+	color: black;
+	font-family: "Times New Roman", Times, serif; 
+	font-weight: bold;
+	padding: 12px 28px;
+	position:relative; left:60px; top: 20px;
+	text-align: center;
+	font-size:16px;
+}
+#submitBtn:hover{
+	background-color: white;
+}
+#submitBtn{
+	border: 2px solid black;
+	border-radius: 12px;
+	background-color: transparent;
+	color: black;
+	font-family: "Times New Roman", Times, serif; 
+	font-weight: bold;
+	padding: 12px 28px;
+	position:relative; left:100px; top: 20px;
+	text-align: center;
+	font-size:16px;
+}
+table {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+table td, table th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+table tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+
+
+table th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: center;
+	color: black;
+	background-color: royalblue;
+}
+
+.requestSubmit{
+	border: 2px solid black;
+	border-radius: 12px;
+	background-color: transparent;
+	color: black;
+	font-family: "Times New Roman", Times, serif; 
+	font-weight: bold;
+	padding: 12px 28px;
+	position:relative; left:50px; top:20px; 
+	text-align: center;
+	font-size:16px;
+}
+.requestSubmit:hover{
+	background-color: white;
+}
+br {
+   
+   line-height: 10px;
+}

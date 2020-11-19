@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Manager Details</title>
+<link rel="stylesheet" href="../styles.css"></link>
+</head>
+<body>
+	<div class="main-heading">
+		<h1>Welcome Manager!</h1>
+		<br />
+	</div>
+	<div class="tabs">
+		<!--<form id= "form" method = "post" action = "/EmployeeReinbursementSystem/EmployeeDetails">-->
+
+		<button id="tablinks1" name="btn1" value="viewMyInfo"
+			onclick="viewMyEmployeesPendingRequests('viewMyEmployeesPendingRequests');">View
+			My Employees Pending Requests</button>
+		<button class="tablinks" name="btn1" value="viewMyInfo1"
+			onclick="viewAllResolvedRequests('viewAllResolvedRequests');">View
+			All Resolved Requests</button>
+		<button class="tablinks" name="btn1" value="viewMyInfo2"
+			onclick="getApproveorDenyRequestsView();">Approve
+			or Deny Requests</button>
+		<button class="tablinks" name="btn1" value="viewMyInfo3"
+			onclick="viewAllEmployees('viewAllEmployees');">View All
+			Employees</button>
+		<button class="tablinks" name="btn1"
+			value="viewRequestsFromMyEmployee"
+			onclick="getRequestsFromMyEmployeeView();">View Requests
+			from My Employee</button>
+		<button id="tablinks1" name="btn1" value="logout"
+			onclick="window.location.href='/EmployeeReinbursementSystem/'">Log
+			Out</button>
+
+	</div>
+	<div class="tabs" id ="managerEmployee">
+		<!--<form id= "form" method = "post" action = "/EmployeeReinbursementSystem/EmployeeDetails">-->
+
+		<button id="tablinks1" name="btn1" value="viewMyInfo"
+			onclick="myFunction('viewMyInfo');">View My Info</button>
+		<button class="tablinks" name="btn1" value="viewMyInfo2"
+			onclick="getUpdateMyInfoView();">Update My Info</button>
+		<button class="tablinks" name="btn1" value="viewMyInfo3"
+			onclick="myPendingRequests('viewMyPendingReimbursements');">View
+			My Pending Requests</button>
+		<button class="tablinks" name="btn1" value="viewMyInfo4"
+			onclick="myApprovedRequests('viewMyApprovedReimbursements');">View
+			My Resolved Requests</button>
+		<button class="tablinks" name="btn1" value="viewMyInfo5"
+			onclick="getNewRequestView();">Submit New Request</button>
+	</div>
+	<div>
+		<h1></h1>
+		<br />
+	</div>
+	<div id="MyInfo"></div>
+	<script src="../manager.js"></script>
+</body>
+</html>
